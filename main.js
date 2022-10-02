@@ -1,5 +1,3 @@
-// Source https://github.com/amiruldev20/wabotjs
-// Recode By ImYanXiao
 import './config.js'
 
 import { createRequire } from "module";
@@ -140,11 +138,6 @@ async function connectionUpdate(update) {
     }
     
     if (global.db.data == null) loadDatabase()
-    if (connection == 'open') {
-        console.log(chalk.yellow('Successfully connected by ' + wm))
-        }
-          console.log(JSON.stringify(update, null, 4))
-          if (update.receivedPendingNotifications) return this.sendButton(nomorown + '@s.whatsapp.net', 'Successfully connected by ' + wm, botdate, null, [['MENU', '/menu']], null)   
 }
 
 process.on('uncaughtException', console.error)
@@ -222,8 +215,10 @@ async function filesInit() {
         }
     }
 }
-filesInit().then(_ => console.log(Object.keys(global.plugins))).catch(console.error)
-
+filesInit().then(_ => {
+    //console.log(Object.keys(global.plugins))
+}
+).catch(console.error)
 
 global.reload = async (_ev, filename) => {
     if (pluginFilter(filename)) {
@@ -248,7 +243,6 @@ global.reload = async (_ev, filename) => {
         if (err) {
             conn.logger.error(`syntax error while loading '${filename}'\n${format(err)}`)
             conn.reply(`${global.o1}@s.whatsapp.net`, `Syntax error *${filename}*
-
 log:
 ${format(err)}`)
             conn.reply(`${global.o2}@s.whatsapp.net`, `Syntax error *${filename}*
