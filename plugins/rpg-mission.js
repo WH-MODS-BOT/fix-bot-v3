@@ -1,4 +1,4 @@
-import misi from '../lib/misi.json'
+import { misi } from '../lib/misi.json'
 
 async function handler(m, { conn, args, text , usedPrefix, command }) {
   //conn.mission = conn.mission || {}
