@@ -1,4 +1,4 @@
-import { quotes} from '../lib/jagokata'
+import { quotes } from '../lib/jagokata.js'
 let handler = async (m, { command, args, usedPrefix }) => {
     let er = `contoh:\n\n${usedPrefix + command} cinta
 
