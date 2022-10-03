@@ -32,7 +32,6 @@ async function handler(m, { conn, args, text , usedPrefix, command }) {
 *📰 MISI:* ${json.misii}
 *🎁 GIFT:* Exp ${json.exp} & Crystal Mana ${json.crystal}
 ${ json.title ? `*🔖 TITLE:* ${json.title}` : '\n'} ${json.gems ? `Gems: ${json.gems}` : `\n`}
-
 slect option
 - Accept
 - Cancel
