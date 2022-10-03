@@ -1,23 +1,41 @@
-let { webp2mp4 } = require('../lib/webp2mp4')
-let { ffmpeg } = require('../lib/converter')
-let handler = async (m, { conn }) => {
-    if (!m.quoted) throw 'Reply sticker or audio!'
-    let mime = m.quoted.mimetype || ''
-    if (!/webp|audio/.test(mime)) throw 'Reply sticker or audio!'
-    let media = await m.quoted.download()
-    let out = Buffer.alloc(0)
-    if (/webp/.test(mime)) {
-        out = await webp2mp4(media)
-    } else if (/audio/.test(mime)) {
-        out = await ffmpeg(media, [
+import fetch from 'node-fetch'
+import { sticker } from '../lib/sticker.js'
+import uploadFile from '../lib/uploadFile.js'
+import uploadImage from '../lib/uploadImage.js'
+import { webp2png, webp2mp4} from '../lib/webp2mp4.js'
+import { Sticker, StickerTypes } from 'wa-sticker-formatter'
+import { ffmpeg } from '../lib/converter.js'
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
+let name = await conn.getName(who)
+let stiker = false
+    let q = m.quoted ? m.quoted : m
+    let mime = (q.msg || q).mimetype || ''
+    if (!m.quoted) throw `Balas stiker/audio yang ingin diubah menjadi video dengan perintah ${usedPrefix + command}`
+    let img = await q.download?.()
+    let stek = new Sticker(img, { pack: packname, author: author, type: StickerTypes.FULL })
+    let buffer = await stek.toBuffer()
+    let out
+      try {
+        if (/webp/g.test(mime)) out = await webp2mp4(img)
+        else if (/image/g.test(mime)) out = await uploadImage(img)
+        else if (/video/g.test(mime)) out = await uploadFile(img)
+        else if (/audio/g.test(mime)) out = await ffmpeg(media, [
             '-filter_complex', 'color',
             '-pix_fmt', 'yuv420p',
             '-crf', '51',
             '-c:a', 'copy',
             '-shortest'
         ], 'mp3', 'mp4')
-    }
-    await conn.sendFile(m.chat, out, 'out.mp4', null, m)
+        if (typeof out !== 'string') out = await uploadImage(img)
+        else if (/gif/g.test(mime)) out = stek
+      } catch (e) {
+        console.error(e)
+      }
+    return conn.sendButtonVid(m.chat, out, `*${htki} TOMP4 ${htka}*
+*NIH UDAH JADI*`, author, 'To mp3', '.tomp3', fakes, adReply)
 }
 handler.help = ['tovideo (reply)']
 handler.tags = ['tools']
