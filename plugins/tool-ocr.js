@@ -19,3 +19,4 @@ handler.command = /^(ocr|totext)$/i
 handler.limit = true
 
 export default handler
+
