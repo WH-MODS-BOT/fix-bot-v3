@@ -15,7 +15,7 @@ export async function all(m) {
 
     if (chat.autoReply) {
     // ketika ada yang kirim anu
-    if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
+    if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat.whatsapp.com') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
         this.sendButton(m.chat, `${wm}
 
         ╭━━━━「 SEWA 」
