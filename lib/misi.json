@@ -1,0 +1,85 @@
+[
+  {
+    "index": 1,
+    "rank": "SSS",
+    "misii": "Menaklukan Raja Iblis",
+    "exp": 97838,
+    "healt": 100,
+    "stamina": 120,
+    "crystal": 37,
+    "title": "Penakluk raja iblis",
+    "point": 28,
+    "gems": 10
+  },
+  {
+    "index": 2,
+    "rank": "F",
+    "misii": "Mencari Crystal",
+    "healt": 0,
+    "stamina": 60,
+    "exp": 1072,
+    "crystal": 3,
+    "title": "crystal hunter",
+    "point": 0,
+    "gems": 0
+  },
+  {
+    "index": 3,
+    "rank": "SS+",
+    "misii": "Taklukan naga Everest",
+    "exp": 79938,
+    "healt": 90,
+    "stamina": 90,
+    "crystal": 24,
+    "title": "Sang Penakluk Naga Everest",
+    "point": 12,
+    "gems": 9
+  },
+  {
+    "index": 4,
+    "rank": "B+",
+    "misii": "Memusnahkan Desa Goblin",
+    "exp": 5647,
+    "healt": 40,
+    "stamina": 80,
+    "crystal": 9,
+    "title": "Musuh Para Goblin",
+    "point": 3,
+    "gems": 1
+  },
+  {
+    "index": 5,
+    "rank": "C+",
+    "misii": "Menyelesaikan Dungeon Berisi Monster Laba laba",
+    "exp": 4837,
+    "healt": 74,
+    "stamina": 86,
+    "crystal": 7,
+    "title": "spider monster killer",
+    "point": 2,
+    "gems": 1
+  },
+  {
+    "index": 6,
+    "rank": "A+",
+    "misii": "Membuat Ramuan Penyembuh penyakit 50 poison",
+    "healt": 2,
+    "stamina": 79,
+    "exp": 26829,
+    "crystal": 15,
+    "title": "Alkemis Ramuan Hebat",
+    "point": 10,
+    "gems": 2
+  },
+ {
+    "index": 7,
+    "rank": "E+",
+    "misii": "Memungut kristal di dungeon",
+    "exp": 3000,
+    "healt": 3,
+    "stamina": 50,
+    "crystal": 5,
+    "title": "crystal picker",
+    "point": 0
+  }
+]
