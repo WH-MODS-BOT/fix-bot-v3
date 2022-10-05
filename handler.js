@@ -1199,7 +1199,7 @@ export async function handler(chatUpdate) {
                         }
                     }
                     if (m.limit)
-                        m.reply(+m.limit + ' ʟɪᴍɪᴛ ᴋᴀᴍᴜ ᴛᴇʀᴘᴀᴋᴀɪ ✔️')
+                        m.reply(+m.limit + ' KONTOL❗ KETIK #MENU PELER')
                 }
                 break
             }
@@ -1377,7 +1377,7 @@ export async function deleteUpdate(message) {
         let chat = global.db.data.chats[msg.chat] || {}
         if (chat.antidelete)
             return
-            this.send2ButtonDoc(msg.key.remoteJid, `Terdeteksi *@${participant.split`@`[0]}* telah menghapus pesan.
+            this.send2ButtonDoc(msg.key.remoteJid, `Terdeteksi anak Anj*@${participant.split`@`[0]}* telah menghapus pesan.
 Untuk mematikan fitur ini, ketik
 *.off antidelete*
 
