@@ -62,7 +62,7 @@ global.pdana = '0895327999292' //dana
 global.povo = '0895327999292' //ovo
 global.pgopay = '089518377899' //gopay
 global.plinkaja = '0895327999292' //link aja
-global.ppulsa = '0895327999292' //tri
+global.ppulsa = 'TIDAK TERIMA PULSA KONTOL' //tri
 global.ppulsa2 = '089518377899' // kalau ada kartu lain isi aja
 global.psaweria = 'https://saweria.com/mrw4h1d'
 
@@ -145,7 +145,7 @@ global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuw
 global.bottime = `T I M E : ${wktuwib}`
 global.titlebot = `⫹⫺ WhatsApp Bot | By WAnnTrue Bot`
 global.packname = '☂︎ Wann ʙʏ'
-global.author = '                「 WAnnTrue Random」'
+global.author = '                「 WannTrue BOT」'
 
 /*Fake*/
 global.fsizedoc = '1'.repeat(10)
