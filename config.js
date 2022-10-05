@@ -51,7 +51,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 global.sig = 'https://instagram.com/mhdkrnwnn_' // ig
 global.sgh = 'https://github.com/wannjb/' // github
-global.sgc = 'https://chat.whatsapp.com/FQkbyTEfvES3D363uxMEFOI' // group whatsapp
+global.sgc = 'https://chat.whatsapp.com/GwCTefLrBr85NFFrqDE1pK' // group whatsapp
 global.sdc = 'https://www.discord.com'//discord
 global.snh = 'https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow' // my youtube channel
 global.sfb = 'https://www.facebook.com/' // facebook
@@ -636,8 +636,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'Wannn Ganteng'
-global.stickauth = `By © Wann Ganteng V1`
+global.stickpack = 'WannTrue BOT'
+global.stickauth = `By © WannTrue`
 
 global.multiplier = 38 // The higher, The harder levelup
 
