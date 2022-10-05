@@ -67,9 +67,9 @@ global.ppulsa2 = '089518377899' // kalau ada kartu lain isi aja
 global.psaweria = 'https://saweria.com/mrw4h1d'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6289518377899'
+global.nomorbot = '6285718260293'
 global.nomorown = '62895327999292'
-global.namebot = 'WannTrue Bot'
+global.namebot = 'BOT WannTrue (WannBot)'
 global.nameown = 'WannTrue'
 
 /*============== Github Thanks To ==============*/
@@ -143,8 +143,8 @@ global.wm2 = '© WannTrue'
 global.wm3 = '⫹⫺ WannTrue BOT '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By WAnnTrue Bot`
-global.packname = '☂︎ Wann ʙʏ'
+global.titlebot = `⫹⫺ WhatsApp Bot | By WAnnTrue`
+global.packname = '☂︎ Wann 💦'
 global.author = '                「 WannTrue BOT」'
 
 /*Fake*/
