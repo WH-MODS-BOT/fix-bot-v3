@@ -139,7 +139,7 @@ global.APIKeys = { // APIKey Here
 
 /*============== WATERMARK ==============*/
 global.wm = '                「 WannTrue bot 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ © WannTrue ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm2 = '© WannTrue'
 global.wm3 = '⫹⫺ WannTrue BOT '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
