@@ -138,12 +138,12 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 Wann Ganteng  」' //Main Watermark
+global.wm = '                「 WannTrue  」' //Main Watermark
 global.wm2 = '© WannTrue Bot'
 global.wm3 = '⫹⫺ WannTrue '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By WH-MODS-DEV`
+global.titlebot = `⫹⫺ WhatsApp Bot | By WannTrue`
 global.packname = '☂︎ Wann'
 global.author = '                「 🐣 WannTrue」'
 
