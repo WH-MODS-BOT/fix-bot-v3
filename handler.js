@@ -1199,7 +1199,7 @@ export async function handler(chatUpdate) {
                         }
                     }
                     if (m.limit)
-                        m.reply(+m.limit + ' ʟɪᴍɪᴛ ᴋᴀᴍᴜ ᴛᴇʀᴘᴀᴋᴀɪ ✔️')
+                        m.reply(+m.limit + ' KONTOL❗ KETIK #MENU PELER')
                 }
                 break
             }
@@ -1311,11 +1311,11 @@ export async function participantsUpdate({ id, participants, action }) {
   let welcom = 'https://telegra.ph/file/aab124271570c51f76aac.jpg'
 
   let godbye = 'https://telegra.ph/file/deaf59bc3e5216eaae814.jpg'
-  conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'WH MODS BOT', fakes, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://www.instagram.com/_ctzhid/',
+  conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'Halo Anak Anj' : 'Dadah anak memek', action === 'add' ? '.intro' : 'WH MODS BOT', fakes, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https://www.instagram.com/mhdkrnwnn_',
     mediaType: 2, 
     description: sgc,
-    title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
+    title: "Join sini ngentod",
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? welcom : godbye)).buffer(),
     sourceUrl: sig
@@ -1377,7 +1377,7 @@ export async function deleteUpdate(message) {
         let chat = global.db.data.chats[msg.chat] || {}
         if (chat.antidelete)
             return
-            this.send2ButtonDoc(msg.key.remoteJid, `Terdeteksi *@${participant.split`@`[0]}* telah menghapus pesan.
+            this.send2ButtonDoc(msg.key.remoteJid, `Terdeteksi anak Anj Yaitu 👉 *@${participant.split`@`[0]}* telah menghapus pesan.
 Untuk mematikan fitur ini, ketik
 *.off antidelete*
 
@@ -1391,20 +1391,20 @@ Untuk menghapus pesan yang dikirim BOT, reply pesan dengan perintah
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*ᴏɴʟʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ* • ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ʜᴀɴʏᴀ ᴜɴᴛᴜᴋ ᴅᴇᴠᴇʟᴏᴘᴇʀ ʙᴏᴛ',
-        owner: '*ᴏɴʟʏ ᴏᴡɴᴇʀ* • ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ʜᴀɴʏᴀ ᴜɴᴛᴜᴋ ᴏᴡɴᴇʀ ʙᴏᴛ',
-        mods: '*ᴏɴʟʏ ᴍᴏᴅᴇʀᴀᴛᴏʀ* • ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ʜᴀɴʏᴀ ᴜɴᴛᴜᴋ ᴍᴏᴅᴇʀᴀᴛᴏʀ ʙᴏᴛ',
-        premium: '*ᴏɴʟʏ ᴘʀᴇᴍɪᴜᴍ* • ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ʜᴀɴʏᴀ ᴜɴᴛᴜᴋ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀ',
-        group: '*ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ʜᴀɴʏᴀ ʙɪsᴀ ᴅɪᴘᴀᴋᴀɪ ᴅɪᴅᴀʟᴀᴍ ɢʀᴏᴜᴘ',
-        private: '*ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ* • ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ʜᴀɴʏᴀ ʙɪsᴀ ᴅɪᴘᴀᴋᴀɪ ᴅɪᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ',
-        admin: '*ᴏɴʟʏ ᴀᴅᴍɪɴ* • ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ʜᴀɴʏᴀ ᴜɴᴛᴜᴋ ᴀᴅᴍɪɴ ɢʀᴏᴜᴘ',
-        botAdmin: '*ᴏɴʟʏ ʙᴏᴛ ᴀᴅᴍɪɴ* • ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ʜᴀɴʏᴀ ʙɪsᴀ ᴅɪɢᴜɴᴀᴋᴀɴ ᴋᴇᴛɪᴋᴀ ʙᴏᴛ ᴍᴇɴᴊᴀᴅɪ ᴀᴅᴍɪɴ',
+        rowner: '*ᴏɴʟʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ* • COMMAND INI HANYA BISA DI GUNAKAN DEVELOPER BOT KONTOL',
+        owner: '*ᴏɴʟʏ ᴏᴡɴᴇʀ* • LU BUKAN OWNER NGNTOD',
+        mods: '*ᴏɴʟʏ ᴍᴏᴅᴇʀᴀᴛᴏʀ* • Khusus ᴍᴏᴅᴇʀᴀᴛᴏʀ ʙᴏᴛ',
+        premium: '*ᴏɴʟʏ ᴘʀᴇᴍɪᴜᴍ* • LU BUKAN PREMIUM NGENTOD',
+        group: '*ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • BISANYA DI GRUP PELER',
+        private: '*ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ* • PRIVATE AJA DEK',
+        admin: '*ᴏɴʟʏ ᴀᴅᴍɪɴ* • LU BUKAN ADMIN NGENTOD',
+        botAdmin: '*ᴏɴʟʏ ʙᴏᴛ ᴀᴅᴍɪɴ* • GW BUKAN ADMIN ANJ',
         //unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* • ᴋᴇᴛɪᴋ  .daftar ᴜɴᴛᴜᴋ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ғɪᴛᴜʀ ɪɴɪ', 
         restrict: '*ʀᴇsᴛʀɪᴄᴛ* • ʀᴇsᴛʀɪᴄᴛ ʙᴇʟᴜᴍ ᴅɪɴʏᴀʟᴀᴋᴀɴ ᴅɪᴄʜᴀᴛ ɪɴɪ',
     }[type]
     if (msg) return conn.send2ButtonDoc(m.chat, msg, author, '💌 Creator', '.creator', '🎀 Menu', '.menu', fakes, adReply)
     let msgg = {
-    	unreg: 'ʜᴀʟʟᴏ ᴋᴀᴋ 👋\nᴀɴᴅᴀ ʜᴀʀᴜs ᴍᴇɴᴅᴀғᴛᴀʀ ᴋᴇ ᴅᴀᴛᴀʙᴀsᴇ ʙᴏᴛ ᴅᴜʟᴜ sᴇʙᴇʟᴜᴍ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ғɪᴛᴜʀ ɪɴɪ\n\n➞ ᴋʟɪᴄᴋ ᴛᴏᴍʙᴏʟ ᴅɪʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀғᴛᴀʀ ᴋᴇ ᴅᴀᴛᴀʙᴀsᴇ ʙᴏᴛ'
+    	unreg: 'HALLO ANAK ANJ 👋\LU HARUS MENDAFTAR NGENTOD KE DATABASE BOT DULU SEBELUM MENGGUNAKAN FITUR BOT KONTOL ɪɴɪ\n\n➞ KLIKLAH ANJ'
 }[type]
 if (msgg) return conn.sendButton(m.chat, `${global.htki} VERIFY ${global.htka}`, msgg, null, ['- ᴠᴇʀɪғʏ -', '/verify'],m)
 }
