@@ -62,9 +62,9 @@ global.pdana = '0895327999292' //dana
 global.povo = '0895327999292' //ovo
 global.pgopay = '089518377899' //gopay
 global.plinkaja = '0895327999292' //link aja
-global.ppulsa = 'TIDAK TERSEDIA❗' //telkomsel
+global.ppulsa = 'NOT❗' //telkomsel
 global.ppulsa2 = '0895327999292' // kalau ada kartu lain isi aja
-global.psaweria = 'TIDAK TERSEDIA❗'
+global.psaweria = 'NOT❗'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6289518377899'
@@ -138,14 +138,14 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 WannTrue  」' //Main Watermark
-global.wm2 = '© WannTrue Bot'
-global.wm3 = '⫹⫺ WannTrue '
+global.wm = '                「 WannBot  」' //Main Watermark
+global.wm2 = '© Wann'
+global.wm3 = '⫹⫺ Wann '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
 global.titlebot = `⫹⫺ WhatsApp Bot | By WannTrue`
 global.packname = '☂︎ Wann'
-global.author = '                「 🐣 WannTrue」'
+global.author = '                「 🐣 WannBot」'
 
 /*Fake*/
 global.fsizedoc = '1'.repeat(10)
@@ -636,8 +636,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'WannTrue BOT'
-global.stickauth = `By © WannTrue`
+global.stickpack = 'Wann BOT'
+global.stickauth = `By © Wann`
 
 global.multiplier = 38 // The higher, The harder levelup
 
