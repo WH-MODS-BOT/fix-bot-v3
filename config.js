@@ -68,9 +68,9 @@ global.psaweria = 'TIDAK TERSEDIA❗'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6289518377899'
-global.nomorown = '0895327999292'
-global.namebot = 'WannTrue BOT'
-global.nameown = 'WannTrue'
+global.nomorown = '6283895190078'
+global.namebot = 'Wann BOT'
+global.nameown = 'Wann'
 
 /*============== Github Thanks To ==============*/
 global.namagithub = 'wannjb' // nama github lu
