@@ -20,5 +20,12 @@ lalu cari yang mirip seperti dibawah ini :
     }
   }
 }
-
+$ pkg upgrade && pkg update
+$ pkg install git -y
+$ pkg install nodejs -y
+$ pkg install ffmpeg -y
+$ pkg install imagemagick -y
+$ git clone https://github.com/WH-MODS-BOT/fix-bot-v3
+$ cd fix-bot-v3
+$ npm i 
 */
